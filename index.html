@@ -11,6 +11,8 @@
         />
         <!-- To use bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Add JQuery for bootstrap to add interactivity -->
+        <script src="js/jQuery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!-- Add Custom css -->
         <link rel="stylesheet" href="css/style.css" />
@@ -22,6 +24,102 @@
         <title>Portfolio</title>
     </head>
     <body>
+        <!-- Modal 1-->
+        <div
+            class="modal fade"
+            id="m1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">
+                            Favorite App Page
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/555x300" />
+                        Project Description.
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-default"
+                            data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div
+            class="modal fade"
+            id="m1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">
+                            Favorite App Page
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/555x300" />
+                        Project Description.
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-default"
+                            data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div
+            class="modal fade"
+            id="m1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">
+                            Favorite App Page
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/555x300" />
+                        Project Description.
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-default"
+                            data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 hidden-xs title-logo">
@@ -51,17 +149,35 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 text-center">
-                    <img src="img/555x300" class="img-responsive" alt="" />
+                    <img
+                        src="img/555x300"
+                        class="img-responsive"
+                        data-toggle="modal"
+                        data-target="#m1"
+                        alt=""
+                    />
                     <h3>Title</h3>
                     <p><a href="#">link</a></p>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img src="img/555x300" class="img-responsive" alt="" />
+                    <img
+                        src="img/555x300"
+                        class="img-responsive"
+                        data-toggle="modal"
+                        data-target="#m1"
+                        alt=""
+                    />
                     <h3>Title</h3>
                     <p><a href="#">link</a></p>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img src="img/555x300" class="img-responsive" alt="" />
+                    <img
+                        src="img/555x300"
+                        class="img-responsive"
+                        data-toggle="modal"
+                        data-target="#m1"
+                        alt=""
+                    />
                     <h3>Title</h3>
                     <p><a href="#">link</a></p>
                 </div>
